@@ -11,6 +11,7 @@ export class HeaderCardButton extends Component {
         </span>
         <span>Your Cart</span>
         <span className={classes.badge} >99</span>
+        salam
       </button>
     )
   }
