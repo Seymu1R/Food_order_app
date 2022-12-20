@@ -10,8 +10,7 @@ export class HeaderCardButton extends Component {
         <CartIcon/>
         </span>
         <span>Your Cart</span>
-        <span className={classes.badge} >99</span>
-        salam
+        <span className={classes.badge} >99</span>        
       </button>
     )
   }
