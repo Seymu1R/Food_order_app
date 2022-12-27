@@ -4,7 +4,7 @@ import AviableMeals from "./AviableMeals";
 
 function Meals() {
   return (
-    <>
+    <>       
       <MealsSummary />
       <AviableMeals />
     </>

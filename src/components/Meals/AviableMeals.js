@@ -34,10 +34,11 @@ function AviableMeals() {
   const mealslist = DUMMY_MEALS.map((meal) => (
     <li>
       <MealItem
-        price={meal.price}
+        id={meal.id} 
+        key1={meal.id}
         name={meal.name}
         description={meal.description}
-        id={meal.id}
+        pricee={meal.price}
       />
     </li>
   ));
