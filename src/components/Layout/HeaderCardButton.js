@@ -18,8 +18,8 @@ function HeaderCardButton(props) {
         <CartIcon/>
         </span>
         <span>Your Cart</span>
-        <span className={classes.badge} >99</span>
-        salam
+        <span className={classes.badge} >{numberOfCartItems}</span>
+        
       </button>
   )
 }
